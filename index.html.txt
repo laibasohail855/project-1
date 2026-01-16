@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Cats</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Cats World</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#cats">Cats</a></li>
+      <li><a href="#catfood">Cat Food</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="about-section">
+  About Us <br>
+  We are a group of cat lovers who created this site to share the beauty and joy of cats.
+</div>
+
+<div class="container" id="cats">
+  <h2>Our Lovely Cat Categories</h2>
+
+  <div class="card-box">
+    <div class="card">
+      <a href="#whitecats">
+        <img src="images/pic8.jpg" alt="White Cat">
+        <figcaption>White Cats</figcaption>
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="#blackcats">
+        <img src="images/pic6.jpg" alt="Black Cat">
+        <figcaption>Black Cats</figcaption>
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="#browncats">
+        <img src="images/pic4.jpg" alt="Brown Cat">
+        <figcaption>Brown Cats</figcaption>
+      </a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  © 2025 Cat Lovers Hub
+</footer>
+
+</body>
+</html>
